@@ -1,0 +1,40 @@
+.mainbox {
+   padding-block: 4rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   color: #95c2de;
+}
+
+.err {
+   font-size: 11rem;
+}
+
+.far {
+   font-size: 6.5rem;
+   border-radius: 50%;
+   border: 10px solid #95c2de;
+   width: 150px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation: spin 2.5s linear infinite;
+}
+
+.err2 {
+   font-size: 11rem;
+}
+
+.msg {
+   font-size: 1.6rem;
+   color: black;
+}
+
+@keyframes spin {
+   to {
+      transform: rotate(-360deg);
+   }
+}

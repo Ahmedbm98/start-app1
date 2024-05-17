@@ -1,0 +1,14 @@
+:root {
+   --bg-color: #2C3E50;
+   --bg-color2: #1ABC9C;
+   --white-color: #fff;
+
+   --padding-block: 3rem;
+}
+
+.navbar-nav .nav-link.active {
+   background-color: var(--bg-color2);
+   padding: .5rem;
+   border-radius: 10px;
+   color: var(--white-color) !important;
+}

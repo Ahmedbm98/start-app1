@@ -1,0 +1,11 @@
+.before {
+   width: 7%;
+   height: 3px;
+   margin-right: 10px;
+}
+
+.after {
+   width: 7%;
+   height: 3px;
+   margin-left: 10px;
+}

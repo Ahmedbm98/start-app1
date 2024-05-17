@@ -1,0 +1,16 @@
+.nav {
+   background-color: #2C3E50;
+}
+
+.nav :global(.navbar-brand):hover .nav :global(.navbar-brand):focus {
+   color: inherit;
+}
+
+.nav :global(a) {
+   color: var(--white-color);
+   font-weight: 600;
+}
+
+.nav :global(a):hover {
+   color: var(--white-color);
+}

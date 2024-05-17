@@ -1,0 +1,6 @@
+.home {
+   background-color: var(--bg-color2);
+   color: var(--white-color);
+   text-align: center;
+   padding-block: 3rem;
+}

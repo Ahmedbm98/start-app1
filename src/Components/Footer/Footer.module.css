@@ -1,0 +1,13 @@
+.footer {
+   background-color: var(--bg-color);
+   padding-block: 5rem;
+   color: var(--white-color);
+}
+
+.endfoot {
+   background-color: #1A252F;
+   color: var(--white-color);
+   padding-block: 1rem;
+   text-align: center;
+
+}
